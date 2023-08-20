@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal portfolio website</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/8a3a4318bf.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id ="header">
+        <div class="container">
+            <nav>
+                <h2 class="logo">Port<span>folio</span></h2>
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                      <i class="fa-solid fa-circle-xmark" onclick="closemenu()"></i>   
+                       <!-- <i class="fa-solid fa-xmark" onclick="closemenu()"></i>    -->
+                </ul>
+                  <i class="fa-solid fa-bars" onclick="openmenu()"></i>  
+                    <!-- <i class="fa-solid fa-bars" onclick="openmenu()"></i   -->
+            </nav>
+            <div class="header-text">
+                <h3>Web Developer</h3>
+                <h1>Hi, I'm <span>Samreen Tariq</span> <br>From Pakistan</h1>
+            </div>
+        </div>
+    </div>
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="samreen.jpg">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>Hi there! I'm Samreen Tariq, a passionate and creative front-end web developer using HTML, CSS, JavaScript and react  with a keen eye for design and a strong drive to create engaging and user-friendly digital experiences. With two years of hands-on experience in this field, I have developed a deep understanding of front-end technologies and best practices, allowing me to bring ideas to life through clean, responsive, and interactive websites.I  make the website more and more interactive with web animation and I am also a freelancer as a frontend web developer with expertise in HTML, CSS, JavaScript since one year. I have a deep love for creating websites that not only look great but work seamlessly for users. I Provide well structured, cross-browse compatibility,valid, adaptive, featured, clean, readable and maintainable code. Collaboration is key for me, I love working alongside designers and front-end developers to create seamless digital experiences.I am also a professional graphic designer with good experience of using Adobe Illustrator and Adobe Photoshop. With two years of experience in the world of design, I specialize in crafting eye-catching visuals that tell stories and make an impact. I'm skilled at making colorful and informative flyers and brochure, memorable logos and banners and eye-catching posters.I consider myself as a communicative, organized, responsible, Hardworking, Studious and proactive person.</p><br>
+                    
+                    
+                    
+                    <div class="tab-title">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Microsoft Office</span><br> I can Create and edit documents containing text and images, work with data and in spreadsheets and databases and can  create presentations and posters.</li>
+                            <li><span>C++ (programming language)</span><br>I can develop operating system , browsers, games ,desktop apps with the help of c++.</li>
+                            <li><span>Java programming</span><br>I am able to  building  and running mobile application, building and scaling cloud appication ,powering enterprise-level web applications by using java.</li>
+                            <li><span>Python (programming language)</span><br>Developing websites and software,Task automation, data analysis and data visualization.</li>
+                            <li><span> Frontend Web Development</span><br>I  can build and create website with expertise in HTML, CSS ,JavaScript and wordpress.</li>
+                            <li><span>Spoken English</span><br>I have a strong grip in english speaking to every people of world since two years.</li>
+                            <li><span>Freelancing</span><br> I am a freelancer as a frontend web development with expertise in HTML,CSS,JavaScript and react since two years</li>
+                            <li><span>Graphic Designer</span><br>Building professional logos, posters,Banners, flyer,Brochure, pakaging design and business card. </li>
+
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>2021   </span><br> C++ (programming Language) From Fatima Jinnah Women University Rawalpindi.</li>
+                            <li><span>2021   </span><br> Java programming From Fatima Jinnah Women University Rawalpindi.</li>
+                            <li><span>2022   </span><br> Oracle database  From Fatima Jinnah Women University Rawalpindi.</li>
+                            <li><span>2022 (current)</span><br> Frontend web development from W3 School<br></li>
+                            <li><span>2022</span><br> Graphic Designing from NS Training center<br></li>
+                            <li><span>2022 (current) </span><br> Freelancing from NS Training center</li>
+                            <li><span>2023 </span><br> Spoken English from NS Training center</li>
+                            <li><span>2023 </span><br> Python (programming language) from Python Career Trainers center/ Artifical Intelligence Communicity of Pakistan. </li>
+                            
+
+
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2021-2025</span><br>Bachelor in Computer Science (Fatima Jinnah Women University Rwalpindi)</li><br>
+                            <li><span>2019-2021</span><br>Intermediate in Computer Science (Govt Girls Higher Sec School Jhatta Hathial)</li><br>
+                            <li><span>2017-2019</span><br>Matric in Computer Science (Govt Girls Higher Sec School Jhatta Hathial)</li><br>
+
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Development</h2>
+                    <p class="ser">I fuse design finesse with technical expertise, crafting functional websites from concepts. Seamless user experiences and optimized performance are my priorities.It ensure great experience for every user. Let's make your digital presence remarkable.</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-python"></i>
+                    <h2>Python Developer</h2>
+                    <p class="ser">I leverage Python's versatility to craft solutions that excel. From web apps to data tools, I create innovative software that tackles challenges. With in-depth Python knowledge, I'm committed to delivering high-performing code. Let's turn your ideas into reality through Python programming.</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-crop"></i>
+                    <h2>Graphic Designer</h2>
+                    <p class="ser">I bring ideas to life as a graphic designer, I'm a visual storyteller, crafting captivating designs that communicate. From logos to layouts, my keen eye for detail enhances aesthetics. Let's collaborate to elevate your brand through compelling graphic design.</p>
+                    <a href="#">Learn more</a>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <!-- ---------------portfolio---------- -->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="foo.avif">
+                    <div class="layer">
+                        <h3>Restaurant flyer</h3>
+                        <p>"Introducing a captivating restaurant flyer that artfully merges enticing imagery with elegant design. A visual masterpiece that beckons food enthusiasts to indulge in the culinary journey that awaits."</p>
+                        <a href=""><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="de12.avif">
+                    <div class="layer">
+                        <h3>Asian food poster</h3>
+                        <p>"An Asian food poster that encapsulates the rich flavors and cultural charm of the East. Through striking visuals and thoughtfully integrated design elements, this poster transports viewers to a realm of authentic Asian culinary delight."</p>
+                        <a href=""><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="fas.avif">
+                    <div class="layer">
+                        <h3>Fashion show poster</h3>
+                        <p>"Designed a captivating fashion show poster blending modern aesthetics with haute couture's glamour, capturing the event's allure. Its harmonious visuals and elegant typography radiate runway sophistication, making it a captivating promotional centerpiece".</p>
+                        <a href=""><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See more</a>
+        </div>
+    </div>
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title1">Contact Me</h1>
+                    <p>Thank you for visiting my Contact page.<br>Feel free to reach out with questions or <br>thoughts.Your feedback is valuable,and<br> I will respond promptly. Excited to connect soon!.</p>
+                    <p><i class="fa-solid fa-paper-plane"></i>samitariq1016@gmail.com</p>
+                    <p><i class="fa-solid fa-square-phone"></i> 03316469558</p>
+                    <div class="social-icons">
+                        <a href="https://twitter.com/samitariq1016?t=YFSMJv498dsqxVUPizc-_Q&s=08"><i class="fa-brands fa-twitter"></i></a>
+                        <a href="https://www.linkedin.com/in/samreen-tariq-182002265"><i class="fa-brands fa-linkedin"></i></a>
+                    </div>
+                    <a href="images/samreencv.pdf" download class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form>
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="email" placeholder="Your Email" required>
+                        <textarea name="Message"  rows="6" placeholder="Your Message"></textarea>
+                        <button type="Submit" class="btn btn2">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Created by Samreen Tariq|&copy;All Rights Reserved</p>
+        </div>
+        
+    </div>
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+    </script>
+    <script>
+        var sidemeu = document.getElementById("sidemenu");
+        function openmenu(){
+            sidemeu.style.right="0";
+
+        }
+        function closemenu(){
+            sidemeu.style.right="-200px";
+
+        }
+
+    </script> 
+    
+</body>
+</html>
